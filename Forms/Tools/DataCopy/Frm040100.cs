@@ -22,9 +22,14 @@ namespace MasterPrototype.Forms.Tools.DataCopy
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnClose_Click(object sender, EventArgs e)
+        private void BtnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BtnAddNew_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

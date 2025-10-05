@@ -9,8 +9,13 @@ namespace MasterPrototype.Domain.Entity.Tools
 {
     internal class DataCopyListEntity
     {
-        public int EmployeeId { get; set; }
+        /// <summary>
+        /// 従業員番号
+        /// </summary>
         public string EmployeeCode { get; set; }
+        /// <summary>
+        /// 従業員名
+        /// </summary>
         public string EmployeeName { get; set; }
         public string Department { get; set; }
         public string Position { get; set; }
