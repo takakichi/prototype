@@ -49,6 +49,7 @@
     <Compile Include="Common\Define.cs" />
     <Compile Include="Domain\Action\Tools\DataCopyListAction.cs" />
     <Compile Include="Domain\Entity\Tools\DataCopyListEntity.cs" />
+    <Compile Include="Domain\MessageConstants.cs" />
     <Compile Include="Forms\Tools\DataCopy\Frm040000.cs">
       <SubType>Form</SubType>
     </Compile>

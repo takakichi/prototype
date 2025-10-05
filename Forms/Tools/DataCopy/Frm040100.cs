@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MasterPrototype.Domain;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,7 +30,11 @@ namespace MasterPrototype.Forms.Tools.DataCopy
 
         private void BtnAddNew_Click(object sender, EventArgs e)
         {
-
+            var result = MessageBox.Show(MessageConstants.ConfirmAddNew, "確認", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                // TODO: 新規登録処理
+            }
         }
     }
 }
